@@ -1,24 +1,84 @@
-body {
-    background-color: black;
-  }
-  
-  h1 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;
-  }
-  
-  .bc {
-    position: relative;
-    left: 97px;
-    bottom: 100px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 
-  .computer1 {
-    position: relative;
-    left: 97px;
-    bottom: 300px;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 4px;
-  }
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(70, 70, 70, 0.7),rgba(70, 70, 70, 0.7)),url(./images/compuercover.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  cursor: pointer;
+}
+
+.menuico {
+  width: 30px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+button {
+  width: 100px;
+  color: black;
+  font-size: 12px;
+  padding: 12px 0;
+  background: white;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+}
